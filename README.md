@@ -5,7 +5,7 @@ Powershell Powershell All-in-one Tool für Admins
 Dieses Skript stellt ein Powershell All-in-one Tool für Admins dar
 
 # Inhalt es Skripts
-1. Löschen des Temporären Ordners
+1. Löschen des Temporären Ordners -< Aktuell nur implementiert, Rest folgt noch >
 2. Automatisierte Datei- und Ordnersicherung
 3. Tägliche Systemstatus-Berichterstattung
 4. Verwaltung von Autostart-Programmen

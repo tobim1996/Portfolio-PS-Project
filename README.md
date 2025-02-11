@@ -1,4 +1,4 @@
-# Portfolio-PS-Project
+# Powershell Portfolio Project
 Powershell Powershell All-in-one Tool für Admins 
  
 # Beschreibung des Skripts

@@ -11,5 +11,5 @@ Dieses Skript stellt ein Powershell All-in-one Tool für Admins dar
 4. Verwaltung von Autostart-Programmen
 5.  Benutzer- und Gruppenverwaltung
 6.  Automatische Windows-Updates und -Patches
-7.  Netzwerk- und Internetgeschwindigkeitstest
-8.  Festplatten-Überwachung und Warnsystem
+7. Nur die Downloadgeschwindigkeit messen
+8. Upload und Downloadgeschwindigkeit messen

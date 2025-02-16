@@ -1,8 +1,8 @@
 # Powershell Portfolio Project
-Powershell Powershell All-in-one Tool für Admins 
+Powershell Powershell All-in-one Tool für Admins made by me
  
 # Beschreibung des Skripts
-Dieses Skript stellt ein Powershell All-in-one Tool für Admins dar
+Dieses Skript stellt ein Powershell All-in-one Tool für Admins dar und in teilen normale Windows User
 
 # Unterprogramme des Skripts
 1. Löschen des Temporären Ordners -< Aktuell nur implementiert, Rest folgt noch >

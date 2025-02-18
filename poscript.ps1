@@ -34,7 +34,7 @@ switch ($inputValue) {
             }
         }
     "2" { 
-        $scriptPath = "$PSScriptRoot\scritpsrc\temdel.ps1"
+        $scriptPath = "$PSScriptRoot\scritpsrc\autobackup.ps1"
         # Prüfen, ob das Skript existiert
         if (Test-Path $scriptPath) {
             # Skript ausführen   
@@ -45,17 +45,6 @@ switch ($inputValue) {
             }
         }
     "3" { 
-        $scriptPath = "$PSScriptRoot\scritpsrc\temdel.ps1"
-        # Prüfen, ob das Skript existiert
-        if (Test-Path $scriptPath) {
-            # Skript ausführen   
-            & $scriptPath  
-            } else {
-            # Skript wird nicht ausgeführt
-            Write-Host "Skript wurde nicht gefunden: $scriptPath"
-            }
-        }
-    "4" { 
         $scriptPath = "$PSScriptRoot\scritpsrc\systemstatus.ps1"
         # Prüfen, ob das Skript existiert
         if (Test-Path $scriptPath) {
@@ -66,8 +55,19 @@ switch ($inputValue) {
             Write-Host "Skript wurde nicht gefunden: $scriptPath"
             }
         }
+    "4" { 
+        $scriptPath = "$PSScriptRoot\scritpsrc\autostart.ps1"
+        # Prüfen, ob das Skript existiert
+        if (Test-Path $scriptPath) {
+            # Skript ausführen   
+            & $scriptPath  
+            } else {
+            # Skript wird nicht ausgeführt
+            Write-Host "Skript wurde nicht gefunden: $scriptPath"
+            }
+        }
     "5" { 
-        $scriptPath = "$PSScriptRoot\scritpsrc\temdel.ps1"
+        $scriptPath = "$PSScriptRoot\scritpsrc\usermanagement.ps1"
         # Prüfen, ob das Skript existiert
         if (Test-Path $scriptPath) {
             # Skript ausführen   

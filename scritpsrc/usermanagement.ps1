@@ -1,1 +1,1 @@
-Write-Host "Programm für dass User Management"
+Write-Host "Programm für dass User Management gestartet"

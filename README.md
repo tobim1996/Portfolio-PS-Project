@@ -2,7 +2,7 @@
 Powershell Powershell All-in-one Tool für Admins made by me
  
 # Beschreibung des Skripts
-Dieses Skript stellt ein Powershell All-in-one Tool für Admins dar und in teilen normale Windows User
+Dieses Skript stellt ein Powershell All-in-one Tool für Admins dar und in ist in teilen auch für normale Windows User geeignet.
 
 # Unterprogramme des Skripts
 1. Löschen des Temporären Ordners -< Aktuell  implementiert>-

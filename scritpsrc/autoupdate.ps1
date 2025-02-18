@@ -22,7 +22,6 @@ if ($PSVersionTable.PSVersion -lt $requiredVersion) {
     }
 }
 
-
 # Überprüfen, welches Betriebssystem vorliegt und den entsprechenden Update-Prozess starten
 
 if ($IsWindows) {

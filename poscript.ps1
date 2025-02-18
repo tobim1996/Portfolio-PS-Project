@@ -11,11 +11,11 @@ Write-Host "`n Geben sie ein welches Skript sie ausführen wollen:"
 # Liste der Programme die gestartet werden können.
 Write-Host "1. Löschen des Temporären Ordners"
 Write-Host "2. Automatisierte Datei- und Ordnersicherung"
-Write-Host "3. Tägliche Systemstatus-Berichterstattung"
+Write-Host "3. Systemstatus-Berichterstattung erstellen"
 Write-Host "4. Verwaltung von Autostart-Programmen"
 Write-Host "5. Benutzer- und Gruppenverwaltung"
-Write-Host "6. Automatische Windows-Updates und -Patches"
-Write-Host "    "
+Write-Host "6. Automatische Betriebssystem Updates"
+Write-Host "7. Nur die Downloadgeschwindigkeit messen"
 Write-Host "8. Upload und Downloadgeschwindigkeit messen"
 
 $inputValue = Read-Host "Welches Script willst du ausführen: "
@@ -56,7 +56,7 @@ switch ($inputValue) {
             }
         }
     "4" { 
-        $scriptPath = "$PSScriptRoot\scritpsrc\temdel.ps1"
+        $scriptPath = "$PSScriptRoot\scritpsrc\systemstatus.ps1"
         # Prüfen, ob das Skript existiert
         if (Test-Path $scriptPath) {
             # Skript ausführen   
@@ -78,7 +78,7 @@ switch ($inputValue) {
             }
         }
     "6" { 
-        $scriptPath = "$PSScriptRoot\scritpsrc\temdel.ps1"
+        $scriptPath = "$PSScriptRoot\scritpsrc\autoupdate.ps1"
         # Prüfen, ob das Skript existiert
         if (Test-Path $scriptPath) {
             # Skript ausführen   

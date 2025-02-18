@@ -1,5 +1,5 @@
 # Powershell Portfolio Project
-Powershell Powershell All-in-one Tool für Admins made by me
+Powershell Powershell All-in-one Tool für Admins made by me.
 
 Dieses Skript stellt ein Powershell All-in-one Tool für Admins dar und in ist in teilen auch für normale Windows User geeignet.
 

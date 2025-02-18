@@ -1,0 +1,1 @@
+Write-Host "Programm zum Erstellen einer Systemberichterstattung gestartet."
